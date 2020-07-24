@@ -5,15 +5,13 @@
  */
 package myagile;
 
-import CX_Diem.ChinhSuaTTSV;
-import Diem_sv.ChinhSuaDiem;
+
 import MyMDI.Dang_ky;
 import MyMDI.Dang_nhap;
 import MyMDI.Lop;
 import MyMDI.Mon;
 import MyMDI.Nghanh;
-import MyMDI.xemDiem;
-import alige.Thongtin_sv;
+
 
 
 /**
@@ -221,30 +219,30 @@ public class Menucon extends javax.swing.JFrame {
 
     private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
         // TODO add your handling code here:
-        xemDiem xd = new xemDiem();
-        this.DpText.add(xd);
-        xd.show();
+//        xemDiem xd = new xemDiem();
+//        this.DpText.add(xd);
+//        xd.show();
     }//GEN-LAST:event_jMenuItem10ActionPerformed
 
     private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
         // TODO add your handling code here:
-        Thongtin_sv tt = new Thongtin_sv();
-        this.DpText.add(tt);
-        tt.show();
+//        Thongtin_sv tt = new Thongtin_sv();
+//        this.DpText.add(tt);
+//        tt.show();
     }//GEN-LAST:event_jMenuItem13ActionPerformed
 
     private void jMenuItem11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem11ActionPerformed
         // TODO add your handling code here:
-        ChinhSuaDiem csd = new ChinhSuaDiem();
-        this.DpText.add(csd);
-        csd.show();
+//        ChinhSuaDiem csd = new ChinhSuaDiem();
+//        this.DpText.add(csd);
+//        csd.show();
     }//GEN-LAST:event_jMenuItem11ActionPerformed
 
     private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
         // TODO add your handling code here:
-        ChinhSuaTTSV cstt = new ChinhSuaTTSV();
-        this.DpText.add(cstt);
-        cstt.show();
+//        ChinhSuaTTSV cstt = new ChinhSuaTTSV();
+//        this.DpText.add(cstt);
+//        cstt.show();
     }//GEN-LAST:event_jMenuItem12ActionPerformed
 
     /**
